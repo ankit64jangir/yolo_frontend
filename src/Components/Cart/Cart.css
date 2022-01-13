@@ -1,0 +1,25 @@
+.quantity{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quantity input{
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    outline: none;
+    color: black;
+}
+
+.decrement,.increment{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.total{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}

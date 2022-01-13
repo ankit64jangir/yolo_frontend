@@ -1,0 +1,40 @@
+.productBox{
+    cursor: pointer;
+}
+
+.productBox:hover{
+    transform:translateY(-5px);
+    transition: all 0.2s;
+}
+
+.productTitle {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.productPrice{
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.productRating{
+    font-size: 15px;
+    font-weight: bolder;
+    color: gray;
+}
+
+.productRating .productRate{
+    background-color: #388E3C;
+    color: #fff;
+    padding: 1px 8px;
+    border-radius: 5px;
+}
+
+.cartLength{
+    position: relative !important;
+    top: -20px;
+    left: -10px;
+    height: 18px;
+}
